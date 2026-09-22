@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ECR_REGISTRY: 380278406175.dkr.ecr.us-east-1.amazonaws.com
+    ECR_REGISTRY: 100678005568.dkr.ecr.us-east-1.amazonaws.com/bia
     ECR_REPO: bia
 
 phases:
@@ -17,7 +17,7 @@ phases:
     commands:
       - echo Build iniciado em `date`
       - echo Gerando imagem da BIA...
-      - docker build -t $REPOSITORY_URI:latest .
+      - docker build --build-arg VITE_API_URL=$VITE_API_URL -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
