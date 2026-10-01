@@ -59,7 +59,7 @@ const AddTask = ({ onAdd }) => {
       </div>
       
       <button type="submit" className="btn btn-block success">
-       adicionar tarefa docker
+        Add New Task
       </button>
       
       <Modal

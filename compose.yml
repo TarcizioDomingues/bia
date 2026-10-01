@@ -10,6 +10,7 @@ services:
     environment:
       DB_USER: postgres
       DB_PWD: 0GYpQNqJmljywZw8IJ3A
+      DB_NAME: bia
       DB_HOST: bia.c2xyeuwyiqx3.us-east-1.rds.amazonaws.com
       DB_PORT: 5432
       ## NAO PRECISA NA IMERSÃO DAQUI PRA BAIXO ## 

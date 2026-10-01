@@ -35,3 +35,9 @@ yarn-error.log*
 
 #mcp local
 .mcp.json
+
+# Instaladores e arquivos locais do AWS CLI e Kiro
+/aws/
+/awscliv2.zip
+/kirocli/
+/kirocli.zip
