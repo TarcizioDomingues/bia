@@ -30,3 +30,19 @@ docker-compose.yml
 # OS
 .DS_Store
 Thumbs.db 
+
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+.aws
+kirocli
+aws
+
+docs
+tests
+playwright-report
+
+deploy.sh
+aws-login.sh
