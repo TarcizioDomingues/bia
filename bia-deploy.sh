@@ -14,9 +14,9 @@ export AWS_PROFILE=formacaoaws
 REGION="us-east-1"
 ECR_REGISTRY="100678005568.dkr.ecr.us-east-1.amazonaws.com"
 ECR_REPOSITORY="bia"
-CLUSTER="cluster-bia"
-SERVICE="service-bia"
-TASK_DEF_FAMILY="task-def-bia"
+CLUSTER="cluster-bia-alb"
+SERVICE="service-bia-alb"
+TASK_DEF_FAMILY="task-def-bia-alb"
 CONTAINER_NAME="bia"
 
 # ============================================================
